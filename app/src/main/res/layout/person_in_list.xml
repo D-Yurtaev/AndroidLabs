@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="#EDBC17">
+
+    <ImageView
+        android:id="@+id/person_list_image"
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/aang" />
+
+    <TextView
+        android:id="@+id/person_name"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/person_nation"
+        android:paddingHorizontal="20dp"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/person_prof"
+        android:paddingHorizontal="20dp"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/person_home"
+        android:paddingHorizontal="20dp"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/persom_list_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Подробнее"
+        android:backgroundTint="#B44927" />
+
+</LinearLayout>
